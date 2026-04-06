@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ACOUSTICFUSER® | The Precision of Sound</title>
+  
+  <meta name="description" content="어쿠스틱퓨저는 철저한 측정과 데이터를 기반으로 최상의 음향 환경을 설계합니다. 방송국, 스튜디오, 대형 회의실 룸튜닝 전문.">
+  <meta name="keywords" content="어쿠스틱퓨저, acousticfuser, 음향설계, 룸튜닝, 음향확산재, 디퓨저, 흡음재, 베이스트랩, 스튜디오시공">
+  
+  <!-- Fonts: Plus Jakarta Sans for Headers, Inter for Body, Syncopate for Brand -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Plus+Jakarta+Sans:wght@300;400;700;800&family=Syncopate:wght@400;700&display=swap" rel="stylesheet">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="dark-theme">
+
+  <!-- Custom Cursor -->
+  <div id="cursor"></div>
+  <div id="cursor-blur"></div>
+
+  <!-- Background Elements -->
+  <div class="bg-gradient-noise"></div>
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+
+  <!-- Nav -->
+  <nav id="navbar">
+    <div class="container nav-flex">
+      <a href="#" class="logo-box">
+        <span class="logo-text">ACOUSTICFUSER</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about">Philosophy</a></li>
+        <li><a href="#services">Solutions</a></li>
+        <li><a href="#products">Inventory</a></li>
+        <li><a href="#portfolio">Works</a></li>
+        <li><a href="https://smartstore.naver.com/acousticfuser" target="_blank" class="nav-store">Store</a></li>
+        <li><a href="http://pf.kakao.com/_xoxmxnxfG" target="_blank" class="nav-cta">Inquiry</a></li>
+      </ul>
+      <div id="mobile-toggle">
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <canvas id="hero-canvas"></canvas>
+    <div class="hero-grid-overlay"></div>
+    
+    <div class="container hero-content">
+      <div class="hero-reveal-container">
+        <div class="hero-badge reveal">Precision Engineered Sound</div>
+      </div>
+      <div class="hero-reveal-container">
+        <h1 class="hero-title reveal">Sculpting the<br><span class="gradient-text">Perfect Resonance</span></h1>
+      </div>
+      <div class="hero-reveal-container">
+        <p class="hero-desc reveal">
+          Beyond mere acoustic treatment, we engineer acoustic excellence. 
+          Driven by data, refined by ears, designed for the ultimate listening experience.
+        </p>
+      </div>
+      <div class="hero-btns reveal">
+        <a href="#contact" class="btn-primary">Get Consultation</a>
+        <a href="https://smartstore.naver.com/acousticfuser" target="_blank" class="btn-secondary">Shop the Gear ↗</a>
+      </div>
+    </div>
+    
+    <div class="scroll-indicator">
+      <div class="mouse"></div>
+      <span>SCROLL</span>
+    </div>
+  </section>
+
+  <!-- Stats Section (Bento Style) -->
+  <section class="stats-section">
+    <div class="container">
+      <div class="bento-grid">
+        <div class="bento-item reveal stats-card" data-speed="0.05">
+          <h2 data-target="20">0</h2>
+          <p>YEARS OF EXPERTISE</p>
+        </div>
+        <div class="bento-item reveal stats-card highlight" data-speed="0.1">
+          <h2 data-target="500">0</h2>
+          <p>COMPLETED PROJECTS</p>
+        </div>
+        <div class="bento-item reveal stats-card" data-speed="0.07">
+          <h2 data-target="99">0</h2>
+          <p>CLIENT SATISFACTION %</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About: Philosophy -->
+  <section class="philosophy" id="about">
+    <div class="container">
+      <div class="layout-split">
+        <div class="content-side">
+          <span class="label reveal">THE PHILOSOPHY</span>
+          <h2 class="section-title reveal">Where Data Meets <span class="gradient-text">Art</span></h2>
+          <p class="reveal">
+            We don't guess. We measure. Acousticfuser utilizes advanced spectral analysis to identify acoustic anomalies before a single panel is placed.
+          </p>
+          <div class="quote-box reveal">
+            <p>"Authentic sound is not achieved by more volume, but by better control."</p>
+          </div>
+          <div class="client-logos reveal">
+            <span>TRUSTED BY:</span>
+            <div class="logo-strip">
+              <span class="tag">ANTENNA MUSIC</span>
+              <span class="tag">KBS TV</span>
+              <span class="tag">LG U+</span>
+            </div>
+          </div>
+        </div>
+        <div class="visual-side reveal">
+          <div class="image-wrapper">
+            <img src="./251R3065.jpg" alt="Acoustic Lab" class="parallax-img">
+            <div class="image-overlay"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Solutions: Services -->
+  <section class="solutions" id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="label reveal">SOLUTIONS</span>
+        <h2 class="section-title reveal">Engineered for <span class="gradient-text">Clarity</span></h2>
+      </div>
+      
+      <div class="solution-cards">
+        <div class="solution-card reveal">
+          <div class="card-count">01</div>
+          <h3>Room Tuning</h3>
+          <p>Custom environmental calibration for recording studios, home theaters, and professional listening spaces.</p>
+          <div class="card-line"></div>
+        </div>
+        <div class="solution-card reveal">
+          <div class="card-count">02</div>
+          <h3>Acoustic Analysis</h3>
+          <p>Full-spectrum diagnostic measuring RT60, modal issues, and early reflections with precision hardware.</p>
+          <div class="card-line"></div>
+        </div>
+        <div class="solution-card reveal">
+          <div class="card-count">03</div>
+          <h3>Broadcast Design</h3>
+          <p>Specialized acoustic engineering for high-stakes broadcast environments and corporate communication hubs.</p>
+          <div class="card-line"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Inventory: Products -->
+  <section class="inventory" id="products">
+    <div class="container">
+      <div class="section-header centered">
+        <span class="label reveal">INVENTORY</span>
+        <h2 class="section-title reveal">Premium <span class="gradient-text">Hardware</span></h2>
+      </div>
+      
+      <div class="product-grid">
+        <div class="product-item reveal">
+          <div class="product-img">
+            <img src="./화면 캡처 2026-04-01 164227.jpg" alt="Diffuser">
+            <div class="hover-info"><a href="https://smartstore.naver.com/acousticfuser">VIEW SHOP</a></div>
+          </div>
+          <div class="product-info">
+            <h4>Acoustic Diffusers</h4>
+            <p>Phase-grating technology for natural ambience.</p>
+          </div>
+        </div>
+        <div class="product-item reveal">
+          <div class="product-img">
+            <img src="./화면 캡처 2026-04-01 164250.jpg" alt="Absorber">
+            <div class="hover-info"><a href="https://smartstore.naver.com/acousticfuser">VIEW SHOP</a></div>
+          </div>
+          <div class="product-info">
+            <h4>Absorption Panels</h4>
+            <p>High-density core for precise frequency control.</p>
+          </div>
+        </div>
+        <div class="product-item reveal">
+          <div class="product-img">
+            <img src="./화면 캡처 2026-04-01 164301.jpg" alt="Bass Trap">
+            <div class="hover-info"><a href="https://smartstore.naver.com/acousticfuser">VIEW SHOP</a></div>
+          </div>
+          <div class="product-info">
+            <h4>Bass Traps</h4>
+            <p>Strategic low-frequency management.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section class="portfolio" id="portfolio">
+    <div class="container-fluid">
+      <div class="horizontal-scroll-container">
+        <div class="portfolio-track">
+          <div class="portfolio-item reveal">
+            <img src="./화면 캡처 2026-04-01 164035.jpg" alt="Work 1">
+          </div>
+          <div class="portfolio-item reveal">
+            <img src="./화면 캡처 2026-04-01 164131.jpg" alt="Work 2">
+          </div>
+          <div class="portfolio-item reveal">
+            <img src="./화면 캡처 2026-04-01 164152.jpg" alt="Work 3">
+          </div>
+          <div class="portfolio-item reveal">
+            <img src="./화면 캡처 2026-04-01 164311.jpg" alt="Work 4">
+          </div>
+          <div class="portfolio-item reveal">
+            <img src="./mania-done-bb23c078ab2555f1abe2f23513d653d8.jpg" alt="Work 5">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="portfolio-cta reveal">
+          <a href="https://smartstore.naver.com/acousticfuser/shoppingstory/list?page=3" target="_blank">View All Case Studies →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info-side reveal">
+          <span class="label">CONNECT</span>
+          <h2 class="section-title">Start a <span class="gradient-text">Project</span></h2>
+          <p>Collaborate with our engineers to transform your acoustic environment.</p>
+          
+          <div class="social-links">
+            <a href="tel:010-0000-0000" class="social-item"><span>PH</span> +82 10-0000-0000</a>
+            <a href="http://pf.kakao.com/_xoxmxnxfG" target="_blank" class="social-item kakao"><span>KA</span> KAKAO CONSULT</a>
+            <a href="https://smartstore.naver.com/acousticfuser" target="_blank" class="social-item naver"><span>NS</span> NAVER STORE</a>
+          </div>
+        </div>
+        
+        <div class="contact-form-side reveal">
+          <form id="contact-form" class="modern-form">
+            <div class="input-group">
+              <input type="text" id="name" required>
+              <label for="name">FULL NAME</label>
+            </div>
+            <div class="input-group">
+              <input type="tel" id="phone" required>
+              <label for="phone">PHONE NUMBER</label>
+            </div>
+            <div class="input-group">
+              <textarea id="message" rows="4" required></textarea>
+              <label for="message">TELL US ABOUT YOUR SPACE</label>
+            </div>
+            <button type="submit" class="submit-btn">
+              <span class="btn-txt">SEND REQUEST</span>
+              <span class="btn-arrow">→</span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="brand-col">
+          <span class="footer-logo">ACOUSTICFUSER</span>
+          <p>The standard in premium acoustic engineering.</p>
+        </div>
+        <div class="link-col">
+          <h6>EXPLORE</h6>
+          <ul>
+            <li><a href="#about">Philosophy</a></li>
+            <li><a href="#services">Solutions</a></li>
+            <li><a href="#portfolio">Works</a></li>
+          </ul>
+        </div>
+        <div class="link-col">
+          <h6>SHOP</h6>
+          <ul>
+            <li><a href="https://smartstore.naver.com/acousticfuser">Global Store</a></li>
+            <li><a href="#products">Inventory</a></li>
+          </ul>
+        </div>
+        <div class="link-col">
+          <h6>LEGAL</h6>
+          <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 ACOUSTICFUSER. ALL RIGHTS RESERVED.</p>
+        <div class="back-to-top" onclick="window.scrollTo(0,0)">TOP ↑</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Contact -->
+  <div class="floating-contact">
+    <a href="tel:010-0000-0000" class="float-item">📞</a>
+    <a href="http://pf.kakao.com/_xoxmxnxfG" target="_blank" class="float-item">💬</a>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/script.js"></script>
+</body>
+</html>
